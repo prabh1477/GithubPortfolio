@@ -1,0 +1,425 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+		<!-- Intro -->
+		<div id="intro">
+			<h1>My Portfolio<br />
+			</h1>
+			<p> A showcase of my projects and abilities</p>
+
+
+		</div>
+
+		<!-- Header -->
+
+
+		<!-- Nav -->
+		<nav id="nav">
+			<!-- <ul class="links">
+				<li class="active"><a href="index.html">My Tab </a></li>
+
+
+			</ul> -->
+			<!-- <ul class="icons">
+
+				<li><a href="#" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+			</ul> -->
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+
+					<h2><a href="#"> My Name is Prabhjot Singh </a></h2>
+
+					<p> Aspiring Software Developer
+					</p>
+				</header>
+				<a class="image main"><img src="images/profile_pic.jpg" style="width: 40%; margin-left: 30% ;"
+						alt="" /></a>
+				<ul class="actions special">
+					<li><a class="button large" onclick="ShowAndHide()">Full Description</a></li>
+				</ul>
+
+				<DIV ID="desc" STYLE="display:none">
+					<p> I am an aspiring software developer who is passionate for web and mobile technologies. I am a
+						student at Institut Superieur d'Informatique Montreal Quebec pursuing Post Grad Diploma in
+						Programming and Web Technologies.</p>
+					<h3> Languages known</h3>
+
+					<ul>
+						<li>Html</li>
+						<li>Css</li>
+						<li>Sql</li>
+						<li>Java</li>
+						<li>C#</li>
+						<li>XML</li>
+						<li>Android</li>
+						<li>Javascript</li>
+
+					</ul>
+
+					<h3> Tools </h3>
+					<ul>
+						<li>Visual Studio</li>
+						<li>Visual Studio Code</li>
+						<li>Android Studio</li>
+						<li>Wamp Server</li>
+						<li>Netbeans</li>
+
+					</ul>
+
+					<h3> Databases </h3>
+					<ul>
+						<li>Sqlite</li>
+						<li>PhpMyAdmin</li>
+						<li>SqlWorkbench</li>
+
+					</ul>
+
+
+				</DIV>
+
+				<SCRIPT>
+					function ShowAndHide() {
+						var x = document.getElementById('desc');
+						if (x.style.display == 'none') {
+							x.style.display = 'block';
+						} else {
+							x.style.display = 'none';
+						}
+					}
+				</SCRIPT>
+
+			</article>
+
+			<h3 style="align-content: center;"> My Projects</h3>
+			<!-- Posts -->
+			<section class="posts">
+				<article>
+
+					<header>
+
+
+
+						<h2><a>MobileWorld<br /></a></h2>
+					</header>
+					<a class="image fit"><img src="images/proj1.png" alt="" /></a>
+					<p>Static e-commerce website</p>
+
+					<ul class="actions special">
+						<li><a class="button" onclick="ShowAndHide2()">Project Desc</a></li>
+					</ul>
+					<ul class="actions special">
+						<li><a href="https://github.com/prabh1477/MobileWorld" class="button">View Source Code</a></li>
+					</ul>
+					<SCRIPT>
+						function ShowAndHide2() {
+							var x = document.getElementById('desc2');
+							if (x.style.display == 'none') {
+								x.style.display = 'block';
+							} else {
+								x.style.display = 'none';
+							}
+						}
+					</SCRIPT>
+
+					<DIV ID="desc2" STYLE="display:none">
+						<p> Mobile World is a static e- commerce website that sells mobile phones </p>
+
+						<h3>Technologies used</h3>
+						<ul>
+							<li>Html</li>
+							<li>Css</li>
+						</ul>
+
+					</DIV>
+
+
+				</article>
+				<article>
+					<header>
+
+						<h2><a>TicTacToe<br />
+							</a></h2>
+					</header>
+					<a class="image fit"><img src="images/proj2.png" alt="" /></a>
+					<p> Game</p>
+					<ul class="actions special">
+						<li><a class="button" onclick="ShowAndHide3()">Project Desc</a></li>
+					</ul>
+					<ul class="actions special">
+						<li><a href="https://github.com/prabh1477/TicTacToe" class="button">View Source Code</a></li>
+					</ul>
+
+					<SCRIPT>
+						function ShowAndHide3() {
+							var x = document.getElementById('desc3');
+							if (x.style.display == 'none') {
+								x.style.display = 'block';
+							} else {
+								x.style.display = 'none';
+							}
+						}
+					</SCRIPT>
+
+					<DIV ID="desc3" STYLE="display:none">
+						<p> TicTacToe is a small game website created using html css and javascript. </p>
+
+						<h3>Technologies used</h3>
+						<ul>
+							<li>Html</li>
+							<li>Css</li>
+							<li>Javascript</li>
+						</ul>
+
+						<h3>Tools used</h3>
+						<ul>
+							<li>Visual Studio Code</li>
+
+						</ul>
+
+					</DIV>
+
+
+				</article>
+				<article>
+					<header>
+
+						<h2><a>FlickrFlights<br /></a></h2>
+					</header>
+					<a class="image fit"><img src="images/flight.jpg" alt=""
+							style="width: 35%; margin-left: 30%;" /></a>
+					<p> flight booking app</p>
+					<ul class="actions special">
+						<li><a class="button" onclick="ShowAndHide4()">Project Desc</a></li>
+					</ul>
+					<ul class="actions special">
+						<li><a href="#" class="button">View Source Code</a></li>
+					</ul>
+
+					<SCRIPT>
+						function ShowAndHide4() {
+							var x = document.getElementById('desc4');
+							if (x.style.display == 'none') {
+								x.style.display = 'block';
+							} else {
+								x.style.display = 'none';
+							}
+						}
+					</SCRIPT>
+
+					<DIV ID="desc4" STYLE="display:none">
+						<p> FlickrFlights is a flight booking app that searches the flights at affordable price and
+							customer can book flights through the app </p>
+
+						<h3>Technologies used</h3>
+						<ul>
+							<li>Android</li>
+							<li>NodeJs</li>
+							<li>Java</li>
+							<li>XML</li>
+						</ul>
+
+						<h3>Tools used</h3>
+						<ul>
+							<li>Android Studio</li>
+
+						</ul>
+
+						Team members: Jayesh,Manjit,Khushpinder,Prabhjot
+
+
+					</DIV>
+
+
+				</article>
+				<article>
+					<header>
+
+						<h2><a>PrintWithUs<br /></a></h2>
+					</header>
+					<a class="image fit"><img src="images/proj4.png" alt="" /></a>
+					<p> e-commerce website</p>
+					<ul class="actions special">
+						<li><a class="button" onclick="ShowAndHide5()">Project Desc</a></li>
+					</ul>
+					<ul class="actions special">
+						<li><a href="https://github.com/aakashpatel13/PrintWithUs" class="button">View Source Code</a>
+						</li>
+					</ul>
+					<SCRIPT>
+						function ShowAndHide5() {
+							var x = document.getElementById('desc5');
+							if (x.style.display == 'none') {
+								x.style.display = 'block';
+							} else {
+								x.style.display = 'none';
+							}
+						}
+					</SCRIPT>
+
+					<DIV ID="desc5" STYLE="display:none">
+						<p> PrintWithUs is e-commerce website that sells various item used in daily life </p>
+
+						<h3>Technologies used</h3>
+						<ul>
+							<li>Html</li>
+							<li>Css</li>
+							<li>Php</li>
+							<li>PhpmyAdmin</li>
+						</ul>
+
+						Team members: Akash,Ritu,Gaurav,Nidhi,Prabhjot
+
+					</DIV>
+
+				</article>
+				<article>
+					<header>
+
+						<h2><a>Unit Converter</a></h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/UnitConverter.jpg" alt=""
+							style="width: 35%; margin-left: 30%;" /></a>
+					<p> Unit Conversion App</p>
+					<ul class="actions special">
+						<li><a class="button" onclick="ShowAndHide6()">Project Desc</a></li>
+
+					</ul>
+					<ul class="actions special">
+						<li><a href="https://github.com/prabh1477/UnitConverter" class="button">View Source Code</a>
+						</li>
+					</ul>
+
+
+					<SCRIPT>
+						function ShowAndHide6() {
+							var x = document.getElementById('desc6');
+							if (x.style.display == 'none') {
+								x.style.display = 'block';
+							} else {
+								x.style.display = 'none';
+							}
+						}
+					</SCRIPT>
+
+					<DIV ID="desc6" STYLE="display:none">
+						<p> Unit Converter is a measurement app that converts one unit of measurement to another. </p>
+
+						<h3>Technologies used</h3>
+						<ul>
+							<li>Android</li>
+							<li>Java</li>
+							<li>XML</li>
+
+						</ul>
+
+
+						<h3>Tools used</h3>
+						<ul>
+							<li>Android Studio</li>
+
+						</ul>
+
+					</DIV>
+
+
+				</article>
+				<article>
+					<header>
+
+						<!-- <h2><a href="#">Augue lorem<br />
+								primis vestibulum</a></h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+					<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque
+						venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+					<ul class="actions special">
+						<li><a href="#" class="button">Full Story</a></li>
+					</ul> -->
+				</article>
+			</section>
+
+			<!-- Footer -->
+
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+
+			<section class="split contact">
+				<section class="alt">
+					<h3>Address</h3>
+					<p>2121 St Mathieu St <br />
+						Montreal, QC H3H2J3</p>
+				</section>
+				<section>
+					<h3>Phone</h3>
+					<p><a>(+1)438-337-6929</a></p>
+				</section>
+				<section>
+					<h3>Email</h3>
+					<p><a href="mailto:prabh1477@gmail.com">prabh1477@gmail.com</a></p>
+				</section>
+				<section>
+					<h3>Social</h3>
+					<ul class="icons alt">
+
+						<li><a href="https://www.linkedin.com/in/prabh1477/" class="icon brands alt fa-linkedin"><span
+									class="label">Linkedin</span></a>
+						</li>
+						<li><a href="https://github.com/prabh1477" class="icon brands alt fa-github"><span
+									class="label">GitHub</span></a></li>
+					</ul>
+				</section>
+			</section>
+		</footer>
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>&copy; Untitled</li>
+				<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
